@@ -1,41 +1,47 @@
 TODO HOMEWORK CHECKLIST:
 PROGRAMMING TASKS:
     SongDatabase.java
-        [ ] Complete the 'addSong' method
-        [ ] Throw an IllegalArgumentException when a playlist of the given name already exists in the 'createPlaylist' method
-        [ ] Complete the 'getPlaylist' method
-        [ ] Complete the 'addSongToPlaylist' method
-        [ ] Complete the 'findSongByName' method
-        [ ] Complete the 'findSongByArtist' method
+        [X] Complete the 'addSong' method
+        [X] Throw an IllegalArgumentException when a playlist of the given name already exists in the 'createPlaylist' method
+        [X] Complete the 'getPlaylist' method
+        [X] Complete the 'addSongToPlaylist' method
+        [X] Complete the 'findSongByName' method
+        [X] Complete the 'findSongByArtist' method
     MP3Player.java
-        [ ] Run the 'main' method and try multiple work flows
+        [X] Run the 'main' method and try multiple work flows
 
 TEST TASKS:
     SongDatabaseTest.java
-        [ ] Write the 'testAddDeleteSong' test method
-        [ ] Write the 'testAddGetDeletePlaylist' test method
-        [ ] Run every other test
+        [X] Write the 'testAddDeleteSong' test method
+        [X] Write the 'testAddGetDeletePlaylist' test method
+        [X] Run every other test
 
 SHORT ANSWERS:
     // TODO FOR HOMEWORK: Answer each question, and note many don't have a 'right answer' so just answer honestly
-    [ ] The MP3Player is a console application, what features do you wish were added?
+    [X] The MP3Player is a console application, what features do you wish were added?
         // ANSWER HERE:
+        - Add multiple songs to a playlist continuously.
+        - Add multiple playlists and songs continuously.
+        - Change Playlist Name
+        - Remove all songs from a playlist
 
-    [ ] Pick any feature you mentioned in the last question. Do you think you could implement that feature with your current knowledge? If yes explain the basic thought processing of adding that feature, if not explain why.
+    [X] Pick any feature you mentioned in the last question. Do you think you could implement that feature with your current knowledge? If yes explain the basic thought processing of adding that feature, if not explain why.
         // ANSWER HERE:
+        -  Change Playlist Name I could implement with my current knowledge.
+        - I could implement all of the features mentioned with my current knowledge.
 
-    [ ] What is a loop?
-        // ANSWER HERE:
+    [X] What is a loop?
+        // ANSWER HERE: It's a series of instructions that is repeated until a particular condition is met
 
-    [ ] Write what each of these loops does in your own words:
-        // FOR LOOP:
-        // WHILE LOOP:
-        // DO WHILE:
+    [X] Write what each of these loops does in your own words:
+        // FOR LOOP: Loops continuously with a predefined number of iterations. Common use is looping through a list of objects.
+        // WHILE LOOP: Loops continuously until the condition specified is met. The condition is checked before the code is executed.
+        // DO WHILE: Loops continuously until the condition specified is met. The condition is checked after the code is executed.
 
-    [ ] Why were 'infinite loops' used in this project? (See UserHelperMethods.displayOptionsAndWaitForValidOption(String[] options) for a reference)
-        // ANSWER HERE:
+    [X] Why were 'infinite loops' used in this project? (See UserHelperMethods.displayOptionsAndWaitForValidOption(String[] options) for a reference)
+        // ANSWER HERE: In the example, the infinite loop exists to continuously prompt the user until they enter a valid input. There doesn't need to be a limit to that.
 
-    [ ] This project has 3 packages (models, resources, and utils). Describe each one.
-        // MODELS:
-        // RESOURCES:
-        // UTILS:
+    [X] This project has 3 packages (models, resources, and utils). Describe each one.
+        // MODELS: Object models and classes that contain the main functionality in the project.
+        // RESOURCES: Contains predefined data, in this case predefined strings to use in the different packages.
+        // UTILS: Utility and helper methods that contain helpful methods that are commonly used throughout the project. They are not specifically related to an object model.
